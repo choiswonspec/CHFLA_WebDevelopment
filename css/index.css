@@ -1,0 +1,32 @@
+@media screen and (max-width: 1500px) {
+    .header-menu-list{
+        margin-left: 10px;
+    }
+    .header-menu-list > a{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .header-menu-list > a{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .header-menu-list > a{
+        padding: 3px;
+        font-size: 15px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .header-menu-list > a{
+        display: none;
+    }
+}
