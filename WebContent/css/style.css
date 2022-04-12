@@ -120,7 +120,7 @@ a {
   height: 1800px;
   align-items: center;
   justify-content: center;
-  background-image: url("/img/main-image.jpeg");
+  background-image: url("../img/main-image.jpeg");
   background-size: cover;
 }
 

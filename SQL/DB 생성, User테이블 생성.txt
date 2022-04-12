@@ -1,0 +1,9 @@
+CREATE DATABASE CHFLA;
+
+use CHFLA;
+
+create table User(
+	userid varchar(30) not null primary key,
+    userpw varchar(30) not null,
+    username varchar(30)
+);
